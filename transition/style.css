@@ -1,0 +1,33 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 30px;
+}
+
+.block:hover{
+    background-color: chartreuse;
+    width: 500px;
+    height: 500px;
+
+}
+
+.block2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 30px;
+    transition: width 5s, height 5s, background-color 5s, transform 5s;
+}
+
+.block2:hover{
+    background-color: chartreuse;
+    width: 500px;
+    height: 500px;
+    transform: rotate(90deg);
+}
+
+.cont{
+    display: flex;
+   
+}

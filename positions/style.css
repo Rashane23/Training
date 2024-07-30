@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.static{
+    position: static;
+    top: 100px;
+}
+.relative{
+    
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.absolute{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+
+.fixed{
+    position: fixed;
+    background-color: chartreuse;
+    padding: 50px;
+    border: 1px solid red;
+    top: 20px;
+    right: 200px;
+}
+
+.sticky{
+    position: sticky;
+    background-color: cornflowerblue;
+    width: 90%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    border: 1px solid red;
+    border-radius: 10px;
+    z-index: 1;
+    opacity: 0.5;
+}
+

@@ -1,0 +1,35 @@
+.block{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: sample;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: 20px;
+    display: inline-block;
+}
+
+@keyframes sample{
+    from {background-color: aqua;}
+    to{background-color: brown;}
+}
+
+
+.block2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: sample2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: 20px;
+    display: inline-block;
+}
+
+@keyframes sample2{
+    0%{background-color: red; left:200px; top:0 }
+    25%{background-color: rgb(0, 55, 255); left:600px; top:0}
+    50%{background-color: rgb(13, 255, 0); left:600px; top:400px}
+    75%{background-color: rgb(225, 255, 0); left:200px; top:400px}
+    100%{background-color: red; left:200px; top:0}
+}
